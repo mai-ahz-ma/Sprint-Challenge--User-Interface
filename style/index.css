@@ -217,6 +217,7 @@ footer nav a {
     body{
 
         margin:auto;
+        justify-content: center;
 
     }
 
@@ -239,11 +240,17 @@ footer nav a {
       width: 100%;
       text-align: center;
     }
+
+    h2{
+        font-size: 30px;
+        text-align: left;
+        justify-content: center;
+    }
     
     .car{
         display: block;
         align-items: center;
-        background-color: blue;
+        justify-content: center;
     }
 
 
@@ -253,7 +260,6 @@ footer nav a {
         display:flex;
         flex-direction: column;
         width: 100%;
-        align-items: center;
         padding: 5%;
 
     }
@@ -275,11 +281,17 @@ footer nav a {
         align-items: center;
     }
 
-    .box{
-
-        
-
+    .middle-content .boxes .box {
+        width: 12.5%;
+        height: 100px;
+        background: black;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+
 
     .bottom-content{ 
 
